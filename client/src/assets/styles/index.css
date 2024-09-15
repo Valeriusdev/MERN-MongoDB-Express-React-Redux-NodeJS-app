@@ -2,6 +2,10 @@ main {
   min-height: 80vh;
 }
 
+.navbar-bg {
+  background-color: #081778;
+}
+
 .rating span {
   margin: 0.1rem;
 }
