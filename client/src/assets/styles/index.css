@@ -1,3 +1,17 @@
 main {
   min-height: 80vh;
 }
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.rating svg {
+  color: #ffec20;
+}
+
+.rating-text {
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding-left: 0.55rem;
+}
