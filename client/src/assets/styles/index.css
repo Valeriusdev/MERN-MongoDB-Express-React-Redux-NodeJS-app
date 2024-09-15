@@ -15,3 +15,10 @@ main {
   font-weight: 600;
   padding-left: 0.55rem;
 }
+
+.product-title {
+  height: 2.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
