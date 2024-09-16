@@ -14,7 +14,7 @@ const ProductScreen = () => {
     <>
         <Link className="btn btn-light my-3" to="/">Go Back</Link>
         <Row>
-            <Col md={8}>
+            <Col md={5}>
                 <Image src={product.image} alt={product.name} fluid />            
             </Col>
             <Col md={4}>
@@ -27,6 +27,20 @@ const ProductScreen = () => {
                     </ListGroup.Item>
                     <ListGroup.Item>Price: ${product.price}</ListGroup.Item>
                 </ListGroup>
+            </Col>
+            <Col md={3}>
+                <Card>
+                    <ListGroup variant='flush'>
+                        <ListGroup.Item>
+                            <Row>
+                                <Col>Price:</Col>
+                                <Col>
+                                    <strong>${product.price}</strong>                                
+                                </Col>
+                            </Row>
+                        </ListGroup.Item>
+                    </ListGroup>
+                </Card>
             </Col>
         </Row>    
     </>
