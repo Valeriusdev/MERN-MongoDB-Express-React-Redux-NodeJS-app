@@ -43,7 +43,7 @@ const products = [
     brand: 'MERN Cake Shop',
     category: 'Cakes',
     price: 32,
-    countInStock: 4,
+    countInStock: 0,
     rating: 4.8,
     numReviews: 14,
   },
