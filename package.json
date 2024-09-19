@@ -1,0 +1,14 @@
+{
+  "name": "mern-mongodb-express-react-redux-nodejs-app",
+  "version": "1.0.0",
+  "description": "MERN Cake Shop",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "license": "MIT"
+}
