@@ -5,10 +5,17 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
-    "start": "node server/server.js"
+    "start": "node client/server.js",
+    "server": "nodemon server/server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "dependencies": {
     "express": "^4.21.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "nodemon": "^3.1.7"
+  }
 }
