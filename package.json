@@ -11,6 +11,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "express": "^4.21.0",
     "mongoose": "^8.6.3"
   },
