@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '1',
     name: 'Fruit Cake',
     image: '/images/fruit.jpeg',
     description: 'Fruit Cake',
@@ -12,7 +11,6 @@ const products = [
     numReviews: 14,
   },
   {
-    _id: '2',
     name: 'Coconut Cake',
     image: '/images/coconut.jpeg',
     description: 'Coconut Cake',
@@ -24,7 +22,6 @@ const products = [
     numReviews: 21,
   },
   {
-    _id: '3',
     name: 'Currant Cake',
     image: '/images/currant.jpeg',
     description: 'Currant Cake',
@@ -36,7 +33,6 @@ const products = [
     numReviews: 11,
   },
   {
-    _id: '4',
     name: 'Strawberry Cake',
     image: '/images/strawberry.jpeg',
     description: 'Strawberry Cake',
@@ -48,7 +44,6 @@ const products = [
     numReviews: 14,
   },
   {
-    _id: '5',
     name: 'Blueberry Cake',
     image: '/images/blueberry.jpeg',
     description: 'Blueberry Cake',
@@ -60,7 +55,6 @@ const products = [
     numReviews: 16,
   },
   {
-    _id: '6',
     name: 'Cherry Cake',
     image: '/images/cherry.jpeg',
     description: 'Cherry Cake',
