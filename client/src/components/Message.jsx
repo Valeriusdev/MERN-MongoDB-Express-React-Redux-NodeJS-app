@@ -1,8 +1,10 @@
-import React from 'react'
+import { Alert } from "react-bootstrap"
 
-const Message = () => {
+const Message = ({ variant, children }) => {
   return (
-    <div>Message</div>
+    <Alert variant={variant}>
+        {children}
+    </Alert>
   )
 }
 
