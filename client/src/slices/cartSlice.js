@@ -6,7 +6,12 @@ const initialState = localStorage.getItem("cart") ? JSON.parse
 const cartSlice = createSlice({
     name: "cart",
     initialState,
-    reducers: {}
+    reducers: {
+        addtoCart: (state, action) => {
+            const item = action.payload;
+            const existItem = state.cartItems.find((x) => x._id === item._id);
+        }
+    },
 });
 
 export default cartSlice.reducer;
